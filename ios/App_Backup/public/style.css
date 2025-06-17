@@ -1,0 +1,25 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 54px; /* ←3倍サイズにしたよ！ */
+  line-height: 1.6;
+  padding: 16px;
+  background-color: #fffbe9;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 54px;
+  margin-bottom: 1rem;
+}
+
+.button {
+  font-size: 54px;
+  padding: 20px 40px;
+  border-radius: 24px;
+}

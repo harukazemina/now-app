@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>Now</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f5f0;
+      color: #5c4630;
+      font-family: "Yu Gothic", "YuGothic", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 80px 20px 20px; /* ← 上に余白たっぷり */
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 40px;
+      font-family: 'Sawarabi Mincho', 'Yu Mincho', serif;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #5c4630;
+      font-size: 20px; /* ← メニュー文字を読みやすく */
+      font-family: "Yu Gothic", "YuGothic", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .menu img {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .menu a:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Now</h1>
+  <div class="menu">
+    <a href="now-intent.html">
+      <img src="now-intent.png" alt="Nowの意図アイコン"><br>
+      Nowの意図
+    </a>
+    <a href="intro.html">
+      <img src="start.png" alt="はじめるアイコン"><br>
+      はじめる
+    </a>
+  </div>
+</body>
+</html>

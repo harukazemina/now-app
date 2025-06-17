@@ -1,0 +1,10 @@
+{
+  "appId": "com.harukazemina.now",
+  "appName": "Now",
+  "webDir": "npx cap add ios",
+  "bundledWebRuntime": false,
+  "ios": {
+    "path": "ios/App/Now",
+    "scrollEnabled": true
+  }
+}
